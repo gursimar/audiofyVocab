@@ -1,6 +1,6 @@
 
 DICTIONARY LIBRARY
-Wordnix - 15 Jun 2014
+WORDNIX - 15 Jun 2014
 You now have access to the Wordnik API. Here's your API key:
 960542d38a1d63153361539342c38085a378dcecf6fc3578f
 
@@ -12,26 +12,25 @@ http://groups.google.com/group/wordnik-api
 
 
 SPEECH LIBRARIES
-iSpeech
+ISPEECH
 simar,
-
 You received two iSpeech API keys to start speech-enabling your apps.
-
 Web Evaluation key: 7f61b9d531c754abdb992eb82851df8e
 Mobile Production key: f67b1b356e65d18039a028dbd8c3cde8
-
 Please review the iSpeech Standard Brand Usage Guidelines: http://www.ispeech.org/downloads/iSpeech-Brand-Usage-Guidelines-2012-04-12.zip.
-
 Best regards,
 The iSpeech Developer Support Team
+Python devel page - https://www.ispeech.org/developers/python
 
-Spoken Text
+SPOKEN TEXT
 Your Spokentext account is ready for use.
-
 Please login to your new account to start recording plain text files .txt, Microsoft Word files .doc, Adobe Acrobat .pdf files, web pages, text you enter yourself or emails.
-
 Your Username is:
-
 Username: gursimar
-
 View our Screencasts and other videos at http://www.spokentext.net/screencasts.php to learn more about how to use SpokenText.net and how to get the most out of your iPod, iPad or iPhone.
+
+GOOGLE
+http://translate.google.com/translate_tts?tl=en&q=Hello%20World
+http://stackoverflow.com/questions/9893175/google-text-to-speech-api
+Wget
+ wget -U Mozilla -O /tmp/tts.mp3 "http://translate.google.com/translate_tts?tl=en&q=Welcome+to+our+fantastic+text+to+voice+demonstration"

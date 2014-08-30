@@ -6,6 +6,8 @@ client = swagger.ApiClient(apiKey, apiUrl)
 wordApi = WordApi.WordApi(client)
 example = wordApi.getTopExample('irony')
 print example.text
-
+definitions = wordApi.getDefinitions('irony')
+for i,v in enumerate(definitions):
+	print i,v.text
 
 
