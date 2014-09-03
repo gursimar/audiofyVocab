@@ -27,4 +27,4 @@ if __name__ == "__main__":
 	definitions = wndict.getDefinitions(word)
 	for i,v in enumerate(definitions):
 		print i,v.text
-		
+
