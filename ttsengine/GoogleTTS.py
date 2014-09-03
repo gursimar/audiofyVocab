@@ -6,7 +6,7 @@ class GoogleTTS(TTSEngine):
 		self.opener = urllib2.build_opener()
 		self.opener.addheaders = [('User-agent', 'Mozilla/5.0')]
 
-	def convertAudio(self, sentence):
+	def convertAudioMP3(self, sentence):
 		response = self.opener.open('http://translate.google.com/translate_tts?tl=en&q=' + sentence)
 		data = response.read()
 		return data
@@ -14,10 +14,10 @@ class GoogleTTS(TTSEngine):
 
 
 if __name__ == "__main__":
-		filename = 'simar.mp3'
-		f = open(filename, 'w')
-		
-		gtts = GoogleTTS()
-		data = gtts.convertAudio('simar')
-		f.write (data)
-		f.close()
+	filename = 'simar.mp3'
+	f = open(filename, 'w')
+	
+	gtts = GoogleTTS()
+	data = gtts.convertAudioMP3('simar')
+	f.write (data)
+	f.close()
