@@ -34,3 +34,15 @@ http://translate.google.com/translate_tts?tl=en&q=Hello%20World
 http://stackoverflow.com/questions/9893175/google-text-to-speech-api
 Wget
  wget -U Mozilla -O /tmp/tts.mp3 "http://translate.google.com/translate_tts?tl=en&q=Welcome+to+our+fantastic+text+to+voice+demonstration"
+
+NaturalReaders
+http://www.naturalreaders.com/
+
+pyttsx
+SAPI - microsoft (look into evernote)
+MAC/ espeak
+
+linux
+espeak
+pico2wave - http://askubuntu.com/questions/53896/natural-sounding-text-to-speech
+
